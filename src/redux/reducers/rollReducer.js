@@ -1,8 +1,11 @@
+const initialState = {
+    die1: null,
+}
 
-const rollReducer = (state = 0, action) => {
+const rollReducer = (state = initialState, action) => {
     switch(action.type) {
         case 'RESET_DICE':
-            return 0;
+            return initialState;
         case 'ROLL_DICE':
             return {
                 die1: action.die1,
