@@ -1,40 +1,40 @@
 const Board = () => {
   return (
-    <table>
-      <tr id="row-1">
-        <td id="sqr-1"></td>
-        <td id="sqr-2"></td>
-        <td id="sqr-3"></td>
-        <td id="sqr-4"></td>
-        <td id="sqr-5"></td>
+    <table id="board">
+      <tr id="row1">
+        <td id="sqr1" class="square"></td>
+        <td id="sqr2" class="square"></td>
+        <td id="sqr3" class="square"></td>
+        <td id="sqr4" class="square"></td>
+        <td id="sqr5" class="square"></td>
       </tr>
-      <tr id="row-2">
-        <td id="sqr-6"></td>
-        <td id="sqr-7"></td>
-        <td id="sqr-8"></td>
-        <td id="sqr-9"></td>
-        <td id="sqr-10"></td>
+      <tr id="row2">
+        <td id="sqr6" class="square"></td>
+        <td id="sqr7" class="square"></td>
+        <td id="sqr8" class="square"></td>
+        <td id="sqr9" class="square"></td>
+        <td id="sqr10" class="square"></td>
       </tr>
-      <tr id="row-3">
-        <td id="sqr-11"></td>
-        <td id="sqr-12"></td>
-        <td id="sqr-13"></td>
-        <td id="sqr-14"></td>
-        <td id="sqr-15"></td>
+      <tr id="row3">
+        <td id="sqr11" class="square"></td>
+        <td id="sqr12" class="square"></td>
+        <td id="sqr13" class="square"></td>
+        <td id="sqr14" class="square"></td>
+        <td id="sqr15" class="square"></td>
       </tr>
-      <tr id="row-4">
-        <td id="sqr-16"></td>
-        <td id="sqr-17"></td>
-        <td id="sqr-18"></td>
-        <td id="sqr-19"></td>
-        <td id="sqr-20"></td>
+      <tr id="row4">
+        <td id="sqr16" class="square"></td>
+        <td id="sqr17" class="square"></td>
+        <td id="sqr18" class="square"></td>
+        <td id="sqr19" class="square"></td>
+        <td id="sqr20" class="square"></td>
       </tr>
-      <tr id="row-5">
-        <td id="sqr-21"></td>
-        <td id="sqr-22"></td>
-        <td id="sqr-23"></td>
-        <td id="sqr-24"></td>
-        <td id="sqr-25"></td>
+      <tr id="row5">
+        <td id="sqr21" class="square"></td>
+        <td id="sqr22" class="square"></td>
+        <td id="sqr23" class="square"></td>
+        <td id="sqr24" class="square"></td>
+        <td id="sqr25" class="square"></td>
       </tr>
     </table>
   );

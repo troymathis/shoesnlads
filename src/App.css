@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.square {
+  min-width: 100px;
+  height: 100px;
+  border: solid;
+}
+
+#sqr1, #sqr3, #sqr5, #sqr7, #sqr9, #sqr11, #sqr13, #sqr15, #sqr17, #sqr19, #sqr21, #sqr23, #sqr25 {
+  background-color: #f4deca;
+}
